@@ -18,7 +18,7 @@ import java.util.Calendar;
 import org.apache.tika.language.LanguageIdentifier;
 /**
  *
- * @author anbumani
+ * @author srikanth
  */
 public class tweetsForFiveDays {
     private static Connection con;
