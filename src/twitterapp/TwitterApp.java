@@ -11,7 +11,7 @@ import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
 /**
  *
- * @author anbumani
+ * @author srikanth
  */
 public class TwitterApp {
     /**
