@@ -6,8 +6,8 @@ The project is about to find the recent trending tweets that contains word "coro
 #### Java - twitter4j
 The codes are written in java language containing the primary library twitter4j.Twitter4J is an unofficial Java library for the Twitter API. With Twitter4J, you can easily integrate your Java application with the Twitter service.
 
-#### Tweets - Storage
-The project uses DBMS(oracle) for the storing the receiving tweets.
+#### Tweets - Storage (JDBC)
+The project uses DBMS(oracle) for the storing the receiving tweets. Oracle is connected with java using JDBC.
 
 #### Language Detection - Tikka Library - java
 
