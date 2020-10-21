@@ -28,10 +28,10 @@ public class TwitterApp {
         twitter4j.Twitter twitter=tf.getInstance();
         tweetsForFiveDays tr=new tweetsForFiveDays();
         tr.find(twitter);//find trending tweets which has corona in it.
-        JASONconverter js=new JASONconverter();
-        js.jason();
+        JSONconverter js=new JSONconverter();
+        js.getJSON();
         
-        JASONConverter1 jas=new JASONConverter1();
-        jas.jason();
+        NonEnglishJSONConverter jas=new NonEnglishJSONConverter();
+        jas.getJSON();
     }
 }
