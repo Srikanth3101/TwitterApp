@@ -18,7 +18,7 @@ Tika can detect 18 of the 184 currently registered ISO 639-1 languages.
 #### WorkFlow 
 
 The name of Main java file is TwitterApp.
-The TwitterApp connects with the twitter api and it calls an function in TweetsForFiveDays class by creating an object and also calls function from jsoncoverter class.
+The TwitterApp connects with the twitter api and it calls an function in TweetsForFiveDays class by creating an object and also calls function from JSONcoverter class.
 
 The TweetsForFiveDays class contains a method to find all the tweets that has "corona" word in it,and also 
 finds the language of the tweet all the english tweets are stored in database table called tweets and all non english tweets are stored in database table called NonEnglishTweets.
