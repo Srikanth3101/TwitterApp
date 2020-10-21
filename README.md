@@ -25,6 +25,6 @@ finds the language of the tweet all the english tweets are stored in database ta
 
 The JSONconverter class converts the database table tweets and selects top 10 retweeted tweet into json file called retweets.json.
 
-The NonEnglishJSONConverter class converts the database table NonEnglishTweets and selects all nonenglishtweets tweet into jason file called nonenglishtweets.json.
+The NonEnglishJSONConverter class converts the database table NonEnglishTweets and selects all nonenglishtweets tweet into json file called nonenglishtweets.json.
 
 TwitterAppScreensots.odt file contains the Screenshots of Excecution.
