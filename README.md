@@ -27,4 +27,4 @@ The JSONconverter class converts the database table tweets and selects top 10 re
 
 The NonEnglishJSONConverter class converts the database table NonEnglishTweets and selects all nonenglishtweets tweet into json file called nonenglishtweets.json.
 
-TwitterAppScreensots.odt file contains the Screenshots of Excecution.
+TwitterAppScreenShots file contains the Screenshots of Excecution.
