@@ -16,7 +16,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 /**
  *
- * @author anbumani
+ * @author srikanth
  */
 public class JASONconverter {
     private static Connection con;
