@@ -18,7 +18,7 @@ import org.json.simple.JSONObject;
  *
  * @author srikanth
  */
-public class JASONConverter1 {
+public class NonEnglishJSONConverter {
     private static Connection con;
     public static ResultSet RetrieveData() throws Exception {
       Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -30,7 +30,7 @@ public class JASONConverter1 {
       ResultSet rs = stmt.executeQuery("Select * from tweets where ROWNUM<=10 order by retweetcount DESC");
       return rs;
    }
-   public void jason() throws Exception {
+   public void getJSON() throws Exception {
       //Creating a JSONObject object
       JSONObject jsonObject = new JSONObject();
       //Creating a json array
