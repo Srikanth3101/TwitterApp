@@ -18,7 +18,7 @@ import org.json.simple.JSONObject;
  *
  * @author srikanth
  */
-public class JASONconverter {
+public class JSONconverter {
     private static Connection con;
     public static ResultSet RetrieveData() throws Exception {
       Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -30,7 +30,7 @@ public class JASONconverter {
       ResultSet rs = stmt.executeQuery("Select * from NonEnglishTweets");
       return rs;
    }
-   public void jason() throws Exception {
+   public void getJSON() throws Exception {
       JSONObject jsonObject = new JSONObject();
       JSONArray array = new JSONArray();
       ResultSet rs = RetrieveData();
