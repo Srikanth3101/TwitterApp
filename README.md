@@ -1,7 +1,7 @@
 # TwitterApp
 
 #### Corono Tweets
-The project is about to find the recent trending tweets that contains word "corona" and find the language of the tweet.
+The project is about to find the recent trending tweets that contains word "corona".It categorizes English and non-English tweets and returns JSON file containing top 10 tweets based on retweets. 
 
 #### Java - twitter4j
 The codes are written in java language containing the primary library twitter4j.Twitter4J is an unofficial Java library for the Twitter API. With Twitter4J, you can easily integrate your Java application with the Twitter service.
